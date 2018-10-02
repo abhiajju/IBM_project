@@ -40,7 +40,7 @@ code( web app )
         index.html
 ```
 
-## How to use this starter-pack?
+## How to use this web app?
  You can run the app by:  
  ```
 python hello.py
