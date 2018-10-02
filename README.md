@@ -27,17 +27,18 @@ pip install flask-sqlalchemy
 ```
 
 ## What’s in the project directory?
-
--**code( web app )
-    -**hello.py
-    -sql.py
-    -students.sqlite3
+```
+code( web app )
+    hello.py
+    sql.py
+    students.sqlite3
     static
         geoloc.css
         geoloc.js
     templates
         sentiment.html
         index.html
+```
 
 ## How to use this starter-pack?
  You can run the app by:  
