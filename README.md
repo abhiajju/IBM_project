@@ -65,3 +65,6 @@ install app-release.apk
 
 ![screenshot 143](https://user-images.githubusercontent.com/19537430/46347661-fb9c7280-c669-11e8-8b61-070f18cacf86.png)
 
+![screenshot_20181002-181355](https://user-images.githubusercontent.com/19537430/46349335-5be1e300-c66f-11e8-9d70-f83c7a363358.png)
+
+![screenshot_20181002-181417](https://user-images.githubusercontent.com/19537430/46349336-5c7a7980-c66f-11e8-9e64-82bc40942784.png)
