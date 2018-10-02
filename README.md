@@ -39,12 +39,24 @@ code( web app )
         sentiment.html
         index.html
 ```
-
+```
+code( android app )
+    app
+       release
+           app-release.apk     
+```
 ## How to use this web app?
  You can run the app by:  
  ```
 python hello.py
 ```
+## How to use this android app?
+ You can run the app by:  
+ ```
+install app-release.apk
+```
+
+
 ## Screenshots:-
 
 ![screenshot 144](https://user-images.githubusercontent.com/19537430/46347659-fb03dc00-c669-11e8-8096-a638b481cdc1.png)
