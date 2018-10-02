@@ -28,8 +28,8 @@ pip install flask-sqlalchemy
 
 ## What’s in the project directory?
 
--code( web app )
-    -hello.py
+-**code( web app )
+    -**hello.py
     -sql.py
     -students.sqlite3
     static
