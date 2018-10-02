@@ -1,7 +1,5 @@
 from __future__ import print_function
 from flask import Flask, redirect, url_for,request, render_template
-from flask_admin import Admin
-from flask_admin.contrib.sqla import ModelView
 import tweepy,json,sys,spotipy
 from watson_developer_cloud import ToneAnalyzerV3
 from watson_developer_cloud import WatsonApiException
@@ -14,10 +12,11 @@ from sql import songs
 app = Flask(__name__,static_url_path='')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///students.sqlite3'
 app.config['SECRET_KEY'] = "random string"
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 def main():
    db.init_app(app)
-   app.run(port=5000, debug=True)
+   app.run(port=5000)
 
 '''admin = Admin(app)
 admin.add_view(ModelView(User, db.session))
