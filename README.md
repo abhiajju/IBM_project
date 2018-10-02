@@ -41,10 +41,9 @@ code( web app )
 
 ## How to use this starter-pack?
  You can run the app by:  
- 
-    ```
-    python hello.py
-    ```  
+ ```
+python hello.py
+```
 
 
 
